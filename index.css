@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: palevioletred;
+}
+
+h1{
+    color: #585858;
+    text-align: center;
+}
+
+.sec1{
+    background-color: pink;
+}
+section div{
+    max-width: 900;
+}
+section h2{
+    text-align: center;
+    color: #585858;
+}
+
+.pizza-collection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+}
+.pizza-collection div{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    margin: 1rem;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Neapolitan_Pizza{
+    background-image: url(https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_60,w_750,f_auto/neopolitan-pizza-php9Cg3Gr);
+}
+.New_York_Style_Pizza{
+    background-image: url(https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_60,w_750,f_auto/nyc-pizza-phpA795O6);
+}
+.Chicago_Deep-Dish_Pizza{
+    background-image: url(https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_60,w_750,f_auto/deep-dish-phpTTkiKt);
+}
+.Margherita_Pizza{
+    background-image: url(https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_60,w_750,f_auto/margherita-pizza-phpM1uwAe);
+}
+.Sicilian_Pizza{
+    background-image: url(https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_60,w_750,f_auto/Sicilian-Pizza-phpPBj4M7);
+}
+.Hawaiian_Pizza{
+    background-image: url(https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_60,w_750,f_auto/hawaiian-pizza-php7xAImh);
+}
+.California_Pizza{
+    background-image: url(https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_60,w_750,f_auto/california-pizza-phphWfB0k);
+}
+.Greek_Pizza{
+    background-image: url(https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_60,w_750,f_auto/greek-pizza-phpyy7umF);
+}
+.Detroit_Style_Pizza{
+    background-image: url(https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_60,w_750,f_auto/detroit-style-pizza-phpmzPMiH);
+}
+.Tavern_Style_Pizza{
+    background-image: url(https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_60,w_750,f_auto/tavern-pizza-phpsdO3AU);
+}
+
+.display{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display h2{
+    color: white;
+    font-size: xx-large;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
